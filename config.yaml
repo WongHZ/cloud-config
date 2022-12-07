@@ -1,3 +1,4 @@
 prefiex:
   get:
     - "AA"
+    - "b"
