@@ -2,3 +2,4 @@ prefiex:
   get:
     - "AA"
     - "bb"
+    - "cc"
