@@ -1,4 +1,2 @@
 prefiex:
-  get:
-    - "AA"
-    - "bbc"
+  get: "aa"
