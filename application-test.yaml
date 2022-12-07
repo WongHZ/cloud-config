@@ -4,3 +4,19 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/
+      
+mybatis-plus:
+  #配置 mybatis-plus.Login_Mapper-locations
+  mapper-locations: classpath*:/mapper/**/*.xml
+  #配置日志，可查看生成的sql语句
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+    
+Spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/payment?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 19981014
