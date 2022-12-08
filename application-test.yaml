@@ -20,3 +20,6 @@ Spring:
     url: jdbc:mysql://localhost:3306/payment?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: 19981014
+    
+config:
+ info: "hahaha"
